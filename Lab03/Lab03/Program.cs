@@ -67,9 +67,9 @@ foreach (int value in numbers)
 Console.WriteLine("\nZadanie 7");
 double[] task7 = new double[20];
 
-for(int i = 0; i < 20; i++)
+for(int i = 1; i <= 20; i++)
 {
-    task7[i] = i; 
+    task7[i-1] = Math.Sqrt(i); 
 }
 
 // Zadanie 8
